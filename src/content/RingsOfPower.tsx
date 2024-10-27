@@ -2,9 +2,9 @@ export const RingsOfPower = {
   title: "Rings of Power",
   description:
     "The Rings of Power is an epic fantasy series set in the Second Age of Middle-earth, thousands of years before the events of The Hobbit and The Lord of the Rings. It explores the rise of evil, the forging of powerful rings, and the uniting of unlikely heroes across Elves, Dwarves, and Men. As Middle-earth faces threats both ancient and unseen, familiar characters like Galadriel and Elrond stand alongside new figures in a story of friendship, betrayal, and resilience in the shadow of impending darkness.",
-  background_image: "/rop.png",
-  start_color: "black",
-  end_color: "black",
+  background_image: "/porbackground.jpg",
+  start_color: "#000000",
+  end_color: "#000000",
   sub_chapters: [
     {
       title: "The First Age",
@@ -21,7 +21,25 @@ export const RingsOfPower = {
           Valar intervene, leading to Morgoth's defeat, ending the First Age.
         </>
       ),
-      background_image: "/rop.png",
+      background_image: "/PoweRing.jpg",
+      start_color: "#000000",
+      end_color: "#000000",
+      year: 0,
+    },
+    {
+      title: "The Second Age of Middle-earth",
+      description: (
+        <>
+          <div>The Rings of Power takes place in this time period.</div>
+          <div>
+            The Elven port city of the Grey Havens is founded. The human kingdom
+            of Númenor (home of the long-living Númenóreans or Dúnedain) is
+            founded by the Edain ("fathers of Men") on an island raised from the
+            Great Sea (which lies to the west of Middle-earth) by the Valar.
+          </div>
+        </>
+      ),
+      background_image: "/secondAge.jpg",
       start_color: "#000000",
       end_color: "#000000",
       year: 0,
